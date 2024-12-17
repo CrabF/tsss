@@ -17,8 +17,8 @@ const ParticlesBackground = () => {
 
     const loadScripts = async () => {
       try {
-        await loadScript("/js/particles.mjs");
-        await loadScript("/js/app.mjs");
+        await loadScript("/js/particles.cjs");
+        await loadScript("/js/app.cjs");
       } catch (error) {
         console.log(error);
       }
@@ -27,7 +27,7 @@ const ParticlesBackground = () => {
     loadScripts();
     return () => {
       const scripts = document.querySelectorAll(
-        'script[src="js/particles.mjs"], script[src="js/app.mjs"]',
+        'script[src="js/particles.cjs"], script[src="js/app.cjs"]',
       );
       scripts.forEach((script) => document.body.removeChild(script));
     };
