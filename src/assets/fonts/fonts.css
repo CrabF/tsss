@@ -1,0 +1,47 @@
+@font-face {
+  font-family: "Jost";
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url("./Jost/Jost-Regular.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "Jost";
+  font-style: normal;
+  font-weight: 500;
+  font-display: swap;
+  src: url("./Jost/Jost-Medium.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "Jost";
+  font-style: normal;
+  font-weight: 600;
+  font-display: swap;
+  src: url("./Jost/Jost-SemiBold.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "Involve";
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url("./Involve/Involve-Regular.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "Involve";
+  font-style: normal;
+  font-weight: 500;
+  font-display: swap;
+  src: url("./Involve/Involve-Medium.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "Involve";
+  font-style: normal;
+  font-weight: 600;
+  font-display: swap;
+  src: url("./Involve/Involve-SemiBold.ttf") format("truetype");
+}
