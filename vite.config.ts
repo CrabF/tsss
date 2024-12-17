@@ -5,5 +5,5 @@ import typescriptPaths from "vite-tsconfig-paths";
 // https://vite.dev/config/
 export default defineConfig({
   plugins: [react(), typescriptPaths()],
-  base: './',
+  base: '/./',
 });
