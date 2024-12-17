@@ -17,8 +17,8 @@ const ParticlesBackground = () => {
 
     const loadScripts = async () => {
       try {
-        await loadScript("../../../../../src/js/particles.js");
-        await loadScript("../../../../../src/js/app.js");
+        await loadScript("../../../../src/js/particles.js");
+        await loadScript("../../../../src/js/app.js");
       } catch (error) {
         console.log(error);
       }
