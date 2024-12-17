@@ -76,15 +76,15 @@
 }
 
 .footer__link_vk {
-  background-image: url("public/footer/vkRu.svg");
+  background-image: url("/footer/vkRu.svg");
 }
 
 .footer__link_hh {
-  background-image: url("public/footer/hh.svg");
+  background-image: url("/footer/hh.svg");
 }
 
 .footer__link_habr {
-  background-image: url("public/footer/habr.svg");
+  background-image: url("/footer/habr.svg");
 }
 
 .footer__links {
